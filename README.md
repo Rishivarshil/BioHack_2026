@@ -1,4 +1,4 @@
-# Integrating D-OCT and Ultrasound Imaging to Determine Organ Viability - BioHack_2026
+# Integrating D-OCT and Ultrasound Imaging to Determine Organ Viability - 2nd Place at BioHack 2026
 This repository presents a multimodal deep learning framework that integrates Dynamic Optical Coherence Tomography (D-OCT) with ultrasound imaging to assess kidney viability in near real time. We developed a custom embedding pipeline to fuse shallow tissue imaging from D-OCT with deep tissue imaging from ultrasound. A neural network trained on these learned embeddings predicts organ viability in under one second.
 
 Our model can efficiently detect:
