@@ -47,7 +47,7 @@ To evaluate the quality of our multimodal fusion pipeline, we projected the lear
 - High separability prior to final classification
 - This confirms that the learned embedding space itself carries meaningful clinical information.
 
-1[Latent Space](latent_space.png)
+![Latent Space](latent_space.png)
 
 The training loss curve shows stable convergence with no signs of divergence or instability. The model reaches a low-loss regime efficiently, demonstrating:
 
