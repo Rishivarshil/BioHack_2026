@@ -1,6 +1,7 @@
 import sys
 import subprocess
 import time
+from tkinter import Image
 from PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel
 from PyQt6.QtCore import Qt
 import joblib
@@ -51,10 +52,10 @@ class DragDropArea(QWidget):
         try:
             # Executes: python covert.py "C:/path/to/image.png"
             img_path = path
-            subprocess.run(["python", "covert_img_to_embedding.py", path], check=True)
-            print(f"Successfully sent {path} to covert_img_to_embedding.py")
+            subprocess.run(["python", "train.py", path], check=True)
+            print(f"Successfully sent {path} to train.py")
         except subprocess.CalledProcessError as e:
-            print(f"Error running covert_img_to_embedding.py: {e}")
+            print(f"Error running train.py: {e}")
         except FileNotFoundError:
             print("Error: 'covert.py' not found in the current directory.")
 
