@@ -59,7 +59,7 @@ The training loss curve shows stable convergence with no signs of divergence or 
 
 ### Classification Performance
 The final model achieves:
-- > 90% prediction accuracy on held-out validation data
+- ~90% prediction accuracy on held-out validation data
 - Near real-time inference (under one second per kidney)
 - Significant reduction in evaluation time compared to traditional biopsy workflows (3–10 hours)
 
